@@ -12,7 +12,7 @@ dependencies {
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    api(project(":lib"))
+    api(project(":jsoup-ktx"))
     api("com.squareup.okhttp3:okhttp:4.10.0")
 }
 

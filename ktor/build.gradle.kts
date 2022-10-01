@@ -12,7 +12,7 @@ dependencies {
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    api(project(":lib"))
+    api(project(":jsoup-ktx"))
     api("io.ktor:ktor-client:2.1.1")
 }
 
