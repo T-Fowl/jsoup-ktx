@@ -1,0 +1,12 @@
+public final class com/tfowl/jsoup/ktx/JsoupKtorKtx {
+	public static final fun append (Lio/ktor/client/request/forms/FormBuilder;Lorg/jsoup/Connection$KeyVal;)V
+	public static final fun append (Lio/ktor/http/ParametersBuilder;Lorg/jsoup/Connection$KeyVal;)V
+	public static final fun appendAll (Lio/ktor/client/request/forms/FormBuilder;Ljava/util/List;)V
+	public static final fun appendAll (Lio/ktor/http/ParametersBuilder;Ljava/util/List;)V
+	public static final fun submitFormElement (Lio/ktor/client/HttpClient;Lorg/jsoup/nodes/FormElement;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun submitFormElement$default (Lio/ktor/client/HttpClient;Lorg/jsoup/nodes/FormElement;Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+	public static final fun toFormPart (Lorg/jsoup/Connection$KeyVal;)Lio/ktor/client/request/forms/FormPart;
+	public static final fun toMultipartFormDataContent (Ljava/util/List;)Lio/ktor/client/request/forms/MultiPartFormDataContent;
+	public static final fun toParameters (Ljava/util/List;)Lio/ktor/http/Parameters;
+}
+

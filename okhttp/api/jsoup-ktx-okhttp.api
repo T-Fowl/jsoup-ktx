@@ -1,0 +1,13 @@
+public final class com/tfowl/jsoup/ktx/JsoupOkHttpKtx {
+	public static final fun add (Lokhttp3/FormBody$Builder;Lorg/jsoup/Connection$KeyVal;)Lokhttp3/FormBody$Builder;
+	public static final fun add (Lokhttp3/MultipartBody$Builder;Lorg/jsoup/Connection$KeyVal;)Lokhttp3/MultipartBody$Builder;
+	public static final fun addAll (Lokhttp3/FormBody$Builder;Ljava/util/List;)Lokhttp3/FormBody$Builder;
+	public static final fun addAllEncoded (Lokhttp3/FormBody$Builder;Ljava/util/List;)Lokhttp3/FormBody$Builder;
+	public static final fun addAllParts (Lokhttp3/MultipartBody$Builder;Ljava/util/List;)Lokhttp3/MultipartBody$Builder;
+	public static final fun addEncoded (Lokhttp3/FormBody$Builder;Lorg/jsoup/Connection$KeyVal;)Lokhttp3/FormBody$Builder;
+	public static final fun toFormBody (Ljava/util/List;)Lokhttp3/FormBody;
+	public static final fun toFormBodyEncoded (Ljava/util/List;)Lokhttp3/FormBody;
+	public static final fun toMultipartBody (Ljava/util/List;)Lokhttp3/MultipartBody;
+	public static final fun toMultipartBodyPart (Lorg/jsoup/Connection$KeyVal;)Lokhttp3/MultipartBody$Part;
+}
+

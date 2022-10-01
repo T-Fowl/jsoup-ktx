@@ -7,6 +7,11 @@ buildscript {
     }
 }
 
+plugins {
+    id("org.jetbrains.kotlinx.binary-compatibility-validator") version "0.11.1" apply false
+}
+
 subprojects {
     apply(plugin = "com.vanniktech.maven.publish")
+    apply(plugin = "org.jetbrains.kotlinx.binary-compatibility-validator")
 }
