@@ -37,7 +37,7 @@ internal fun InputStream.asProvider(): InputStreamProvider = when (this) {
         val baos = ByteArrayOutputStream()
 
         init {
-            this@asProvider.transferTo(baos)
+            this@asProvider.copyTo(baos)
         }
 
         override fun provide(): InputStream = ByteArrayInputStream(baos.toByteArray())
