@@ -29,7 +29,7 @@ internal fun InputStream.asProvider(): InputStreamProvider = when (this) {
 
     // If we have a ByteArrayInputStream, simply create new streams referencing the same buffer
     is ByteArrayInputStream -> object : InputStreamProvider {
-        override fun provide(): InputStream = ByteArrayInputStream(this@asProvider.readAllBytes())
+        override fun provide(): InputStream = ByteArrayInputStream(this@asProvider.readBytes())
     }
 
     // If we have an unknown type, we have no option but to read all bytes into memory
