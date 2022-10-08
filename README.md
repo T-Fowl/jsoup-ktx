@@ -29,7 +29,7 @@ Groovy
 repositories {
     mavenCentral()
 }
-implementation "com.tfowl.ktor:jsoup-ktx:$version"
+implementation "com.tfowl.jsoup:jsoup-ktx:$version"
 
 // Recommend overriding jsoup version
 ```
@@ -39,7 +39,7 @@ Kotlin DSL
 repositories {
     mavenCentral()
 }
-implementation("com.tfowl.ktor:jsoup-ktx:$version")
+implementation("com.tfowl.jsoup:jsoup-ktx:$version")
 // Recommend overriding jsoup version
 ```
 
