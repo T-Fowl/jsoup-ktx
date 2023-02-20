@@ -12,7 +12,7 @@ dependencies {
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-    api("org.jsoup:jsoup:1.15.3")
+    api("org.jsoup:jsoup:1.15.4")
 }
 
 testing {
